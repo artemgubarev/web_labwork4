@@ -1,0 +1,35 @@
+{
+  "name": "middlemarch",
+  "version": "0.0.0",
+  "author": "George Eliot",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "nightwatch --env chrome --headless"
+  },
+  "dependencies": {
+    "pinia": "^2.0.24",
+    "vue": "3.2.45",
+    "vue-router": "^4.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "3.2.0",
+    "chromedriver": "107.0.3",
+    "geckodriver": "3.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "nightwatch": "2.5.1",
+    "vite": "3.2.4",
+    "vite-plugin-nightwatch": "0.3.2",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "description": "[![Node.js CI](https://github.com/beatfactor/middlemarch/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/beatfactor/middlemarch/actions/workflows/node.js.yml)\r [![Netlify Status](https://api.netlify.com/api/v1/badges/16d2bbe4-6931-4e83-9fe5-6fd6e1688f2d/deploy-status)](https://app.netlify.com/sites/middlemarch/deploys)",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
